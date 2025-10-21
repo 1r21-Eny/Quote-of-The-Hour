@@ -7,9 +7,9 @@ An interactove display for the quote of the hour with a refresh button and cool 
 
 ## Features
 
-- parallax effect
-- quote author
-- quote vibe
+- Parallax effect
+- Quote author
+- Quote vibe
 
 
 ## Deployment
@@ -26,11 +26,11 @@ To deploy this project search:
 
 ## FAQ
 
-#### Is there any other functions
+#### Is there any other functions?
 
 I added a clock but it won't work idk why so for now no
 
-#### How many quotes are there
+#### How many quotes are there?
 
-so far around 100 if I find an API there could be more using it thought i doubt it.
+So far around 100 if I find an API there could be more using it thought i doubt it.
 
