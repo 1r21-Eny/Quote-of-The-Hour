@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Day You Find Out Why</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ambient-glow"></div>
+    <button class="refresh-button" id="refreshButton" aria-label="Refresh quote">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 4 23 10 17 10"></polyline>
+            <polyline points="1 20 1 14 7 14"></polyline>
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+        </svg>
+    </button>
+    <main class="container">
+        <article class="card" id="reflectionCard">
+            <div class="card-light"></div>
+            <div class="card-content">
+                <h2 class="section-title">Quote of the Hour</h2>
+                <blockquote class="quote">
+                    <p class="quote-text" id="quoteText">Loading wisdom...</p>
+                    <cite class="quote-author" id="quoteAuthor">—</cite>
+                </blockquote>
+                <p class="reflection" id="vibeLine">Perhaps today is one of those days.</p>
+            </div>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
